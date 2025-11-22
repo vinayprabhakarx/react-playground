@@ -6,6 +6,8 @@ import GreetingToggleButton from "./components/useState/GreetingToggleButton";
 import BasicCounter from "./components/useState/BasicCounter";
 import CheckboxStatusToggle from "./components/useState/CheckboxStatusToggle";
 import CarDetailsUpdater from "./components/useState/CarDetailsUpdater";
+import PasswordToggle from "./components/useState/PasswordToggle";
+import CharacterLimitInput from "./components/useState/CharacterLimitInput";
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
       <CheckboxStatusToggle />
       <br />
       <CarDetailsUpdater />
+      <br />
+      <PasswordToggle />
+      <CharacterLimitInput />
     </>
   );
 }
