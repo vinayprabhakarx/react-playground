@@ -8,6 +8,8 @@ import CheckboxStatusToggle from "./components/useState/CheckboxStatusToggle";
 import CarDetailsUpdater from "./components/useState/CarDetailsUpdater";
 import PasswordToggle from "./components/useState/PasswordToggle";
 import CharacterLimitInput from "./components/useState/CharacterLimitInput";
+import LikeButton from "./components/useState/LikeButton";
+import ThemeToggle from "./components/useState/ThemeToggle";
 
 function App() {
   return (
@@ -28,6 +30,9 @@ function App() {
       <br />
       <PasswordToggle />
       <CharacterLimitInput />
+      <LikeButton />
+      <br />
+      <ThemeToggle />
     </>
   );
 }
