@@ -7,14 +7,14 @@ const PasswordToggle = () => {
 
   return (
     <div>
-      <h3>Q7. PasswordToggle</h3>
+      <h3 className="text-2xl "> PasswordToggle</h3>
       <input
-        className="m-2 p-2 border border-gray-300 rounded-4xl"
+        className="m-2 p-2 border  rounded-4xl"
         type={isPasswordVisible ? "text" : "password"}
         placeholder="Enter your password"
       />
       <button
-        className="p-2 border border-gray-300 rounded-4xl bg-gray-100"
+        className="p-2 border  rounded-4xl cursor-pointer"
         onClick={() => setIsPasswordVisible(!isPasswordVisible)}
       >
         {isPasswordVisible ? <FaEye /> : <FaEyeSlash />}

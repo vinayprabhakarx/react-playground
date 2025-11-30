@@ -14,7 +14,8 @@ const CarDetailsUpdater = () => {
 
   return (
     <>
-      <h3>Q6. My Car is {car.brand}</h3>
+      <h3>My Car is {car.brand}</h3>
+      <br />
       <h3>
         It is a {car.color} {car.model} from {car.year}
       </h3>

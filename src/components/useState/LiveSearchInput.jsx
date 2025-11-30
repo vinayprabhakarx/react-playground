@@ -6,13 +6,16 @@ const LiveSearchInput = () => {
 
   return (
     <div>
-      <h3>Q1. Live Search Input</h3>
+      <h3 className="text-2xl ">Live Search Input</h3>
+      <br />
       <input
+        className="border-2 rounded-2xl mb-4 p-2"
         type="text"
         placeholder="Search here..."
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
+
       <p>Your query: {value}</p>
     </div>
   );

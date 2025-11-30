@@ -19,8 +19,10 @@ const BasicCounter = () => {
 
   return (
     <div>
-      <h3>Q3. Basic Counter</h3>
+      <h2 className="text-2xl ">Basic Counter</h2>
+      <br />
       <h2>Value = {count}</h2>
+      <br />
 
       <button
         style={{ ...buttonStyle, backgroundColor: "green", color: "white" }}

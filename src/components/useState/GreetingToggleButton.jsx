@@ -10,8 +10,12 @@ const GreetingToggleButton = () => {
 
   return (
     <div>
-      <h3>Q2. {change} Vinay!</h3>
-      <button style={{ cursor: "pointer" }} onClick={handleClick}>
+      <h3 className="text-2xl ">{change} Vinay!</h3>
+      <br />
+      <button
+        className="cursor-pointer border-2 rounded-3xl p-2 "
+        onClick={handleClick}
+      >
         Click Me
       </button>
     </div>

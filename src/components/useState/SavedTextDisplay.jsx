@@ -14,18 +14,21 @@ const SavedTextDisplay = () => {
 
   return (
     <div>
-      <h3>Q4. Saved Text Display</h3>
+      <h3 className="text-2xl mb-3">Saved Text Display</h3>
 
-      <p>{displayText}</p>
+      <p className="p-3 ">{displayText}</p>
 
       <input
+        className="border-2 rounded-4xl mb-4 p-2"
         type="text"
         value={text}
         placeholder="Write here..."
         onChange={(e) => setText(e.target.value)}
       />
 
-      <button onClick={handleSave}>Save</button>
+      <button className="border-2 rounded-4xl ml-2 p-2" onClick={handleSave}>
+        Save
+      </button>
     </div>
   );
 };

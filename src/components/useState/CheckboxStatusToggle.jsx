@@ -19,7 +19,7 @@ const CheckboxStatusToggle = () => {
 
   return (
     <div>
-      <h3>Q5. Checkbox Status Toggle</h3>
+      <h3 className="text-2xl ">Checkbox Status Toggle</h3>
 
       <input
         type="checkbox"
