@@ -12,6 +12,10 @@ import CharacterLimitInput from "./components/useState/CharacterLimitInput";
 import LikeButton from "./components/useState/LikeButton";
 import ThemeToggle from "./components/useState/ThemeToggle";
 import SimpleTodo from "./components/useState/SmipleTodo";
+import Dropdown from "./components/handleInputs/Dropdown";
+import CheckBox from "./components/handleInputs/CheckBox";
+import NewCheckBox from "./components/handleInputs/newCheckbox";
+import Radio from "./components/handleInputs/Radio";
 
 function App() {
   const [active, setActive] = useState(null);
@@ -28,6 +32,10 @@ function App() {
     { label: "Like Button", comp: <LikeButton /> },
     { label: "Theme Toggle", comp: <ThemeToggle /> },
     { label: "Simple Todo", comp: <SimpleTodo /> },
+    { label: "Check Box Input", comp: <CheckBox /> },
+    { label: "New Way to implement CheckBox", comp: <NewCheckBox /> },
+    { label: "Dropdown Button", comp: <Dropdown /> },
+    { label: "Radio Button", comp: <Radio /> },
   ];
 
   // HOME LIST PAGE (CENTERED)

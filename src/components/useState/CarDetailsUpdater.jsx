@@ -20,7 +20,12 @@ const CarDetailsUpdater = () => {
         It is a {car.color} {car.model} from {car.year}
       </h3>
 
-      <button onClick={changeColor}>Change Color to Black</button>
+      <button
+        className="border-2 bg-red-400 cursor-pointer  rounded-2xl "
+        onClick={changeColor}
+      >
+        Change Color to Black
+      </button>
     </>
   );
 };
